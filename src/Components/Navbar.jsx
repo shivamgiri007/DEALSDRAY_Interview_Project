@@ -1,17 +1,18 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
 import "./Navbar.css";
+import logo from "../Images/Logo.jpeg";
+
 export default function Navbar(props) {
-    const navigate = useNavigate();
-    const handleClick = (path) => {
-    navigate(path);
-  };
-    return(
-        <>
-            <nav className="navbar">
-                <button onClick={() => handleClick('./Home.jsx')}>Home</button>
-                <button onClick={() => handleClick('./loginpage.jsx')}>Login</button>   
-            </nav>  
-        </>
-    )
-};
+  return (
+    <>
+      <nav className="navbar bg-body-tertiary navb">
+        <div className="d-flex justify-content-between px-5">
+          <div>
+            <img src={logo} className="img-fluid logo" alt="logo" />
+          </div>
+
+           </div>
+      </nav>
+    </>
+  );
+}

@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "image": "https://via.placeholder.com/50",
+      "name": "John Doe",
+      "mobile": "123-456-7890",
+      "designation": "Software Engineer",
+      "gender": "Male",
+      "course": "Computer Science",
+      "createDate": "2023-01-01"
+    },
+    {
+      "id": 2,
+      "image": "https://via.placeholder.com/50",
+      "name": "Jane Smith",
+      "mobile": "987-654-3210",
+      "designation": "Product Manager",
+      "gender": "Female",
+      "course": "Business Administration",
+      "createDate": "2023-02-01"
+    }
+  ]
+  
